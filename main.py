@@ -24,6 +24,8 @@ llama_output = subprocess.run(
     capture_output=True, text=True
 )
 
+subprocess.run(["ollama", "stop", "llama3"])
+
 # Check if llama_output was successful
 if llama_output.returncode != 0:
     print("Error with llama3 command:", llama_output.stderr)
@@ -51,6 +53,7 @@ else:
         ["ollama", "run", "granite-code:8b", granite_prompt],
         capture_output=True, text=True
     )
+    subprocess.run(["ollama", "stop", "granite-code:8b"])
 
     # Check if granite_output was successful
     if granite_output.returncode != 0:
@@ -91,5 +94,3 @@ else:
             print("Program output:\n", run_output.stdout)
 
 # Ensure subprocesses stop after use
-subprocess.run(["ollama", "stop", "llama3"])
-subprocess.run(["ollama", "stop", "granite-code:8b"])
