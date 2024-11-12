@@ -10,7 +10,7 @@ LLM Enhanced Rust Code Generation
 
 **Backend:** Ollama
 
-**Rust:** rustc (not ollama)
+**Rust:** rustc (not cargo)
 
 ## Getting Started
 
