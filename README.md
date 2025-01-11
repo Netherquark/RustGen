@@ -1,4 +1,6 @@
-# Proof of concept implementation of an agentic Rust coder
+# RustGen
+
+This is a proof of concept implementation of a multiagent Rust coder.
 
 **Prompt refinement agent:** llama3:8b
 
