@@ -1,12 +1,10 @@
-# RustGen
+# Proof of concept implementation of an agentic Rust coder
 
-LLM Enhanced Rust Code Generation
+**Prompt refinement agent:** llama3:8b
 
-**Prompt refinement:** llama3:8b
+**Code generation agent:** granite-code:8b
 
-**Code generation:** granite-code:8b
-
-**Code refinement using logs:** llama3:8b
+**Code refinement agent:** llama3:8b
 
 **Backend:** Ollama
 
