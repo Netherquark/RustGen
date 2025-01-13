@@ -2,6 +2,8 @@
 
 This is a proof of concept implementation of a multiagent Rust coder.
 
+![unnamed](https://github.com/user-attachments/assets/d13c0d2a-7c18-4d68-aa8d-92f40a805782)
+
 **Prompt refinement agent:** llama3:8b
 
 **Code generation agent:** granite-code:8b
@@ -11,6 +13,10 @@ This is a proof of concept implementation of a multiagent Rust coder.
 **Backend:** Ollama
 
 **Rust:** rustc (not cargo)
+
+![Picture1](https://github.com/user-attachments/assets/47d4234c-0bb5-4ad0-be1c-b18359e17580)
+
+
 
 ## Getting Started
 
